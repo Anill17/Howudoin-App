@@ -41,15 +41,15 @@ Howudoin is a messaging application similar to WhatsApp, built with **Spring Boo
 - Postman (for API testing, optional)  
 
 ### 🔧 Run MongoDB with Docker (if needed)
-''' bash
+```bash
 docker run -d -p 27017:27017 --name howudoin-mongo mongo
-'''
+```
 
 ### 🔨 Run the Backend
-''' bash
+```bash
 cd backend  
 ./gradlew bootRun  
-'''
+```
 
 The backend will start at http://localhost:8080
 
@@ -85,11 +85,11 @@ The backend will start at http://localhost:8080
 - Android Studio / Xcode (emulator) or real device with Expo Go  
 
 ### ▶️ Run the Frontend
-''' bash
+```bash
 cd frontend  
 npm install  
 npx expo start  
-'''
+```
 
 - Scan the QR code with the **Expo Go app** (Android/iOS)  
 - Or run in an emulator  
